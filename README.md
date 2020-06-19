@@ -1,9 +1,6 @@
-﻿﻿## Automation Test
-
-_Copyright 2020 Ilham Akbar Adhiguna Erlangga. All rights reserved._
-
-# HOW TO START
+﻿# HOW TO START
 These are steps that you must do before running the automated tests
+_Copyright 2020 Ilham Akbar Adhiguna Erlangga. All rights reserved._
 
 ## Things to install and get ready in Windows
 * Java JDK
