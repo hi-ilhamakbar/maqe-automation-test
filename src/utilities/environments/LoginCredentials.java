@@ -14,6 +14,6 @@ public class LoginCredentials {
     public static String WEB_DRIVER = "webdriver.chrome.driver";
     public static String CHROME_DRIVER = "\\chromedriver\\chromedriver.exe";
 
-    // Base URL for The Edge running in different environments
+    // Base URL to open the website
     public static String WEBSITE_URL = "http://automationpractice.com/";
 }
