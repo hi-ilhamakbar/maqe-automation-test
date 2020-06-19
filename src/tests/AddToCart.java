@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utilities.constants.Notification;
-import utilities.general.GeneralUtilitiesPageTest;
+import utilities.general.GeneralUtilities;
 import utilities.print.PrintUtilitiesPageTest;
 import static utilities.setup.Setup.getDriver;
 
@@ -18,7 +18,7 @@ import static utilities.setup.Setup.getDriver;
  */
 public class AddToCart {
     private static PrintUtilitiesPageTest printUtilitiesPageTest = new PrintUtilitiesPageTest();
-    private static GeneralUtilitiesPageTest generalUtilitiesPageTest = new GeneralUtilitiesPageTest();
+    private static GeneralUtilities generalUtilitiesPageTest = new GeneralUtilities();
     private static WebDriver webDriver = getDriver();
 
     /**
