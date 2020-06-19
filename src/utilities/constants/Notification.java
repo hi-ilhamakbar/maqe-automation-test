@@ -18,4 +18,5 @@ public class Notification {
 
     // Test notification that will run each time a certain test during checkout process
     public static String ADD_TO_CART = "ADD TO CART TEST";
+    public static String ADJUST_CART = "ADJUST CART TEST";
 }

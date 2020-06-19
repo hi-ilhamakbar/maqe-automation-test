@@ -35,7 +35,7 @@ public class AddToCart {
         printUtilitiesPageTest.print(new String[] {Notification.ADD_TO_CART + Notification.BEGINS});
 
         chooseItem();
-        generalUtilitiesPageTest.setThreadSleep(10000);
+        generalUtilitiesPageTest.setThreadSleep(5000);
         chooseSize();
         clickAddToCart();
         clickProceed();
