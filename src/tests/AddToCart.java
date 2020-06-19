@@ -38,6 +38,7 @@ public class AddToCart {
         generalUtilitiesPageTest.setThreadSleep(10000);
         chooseSize();
         clickAddToCart();
+        clickProceed();
 
         printUtilitiesPageTest.print(new String[] {Notification.ADD_TO_CART + Notification.ENDS + "\n"});
     }
@@ -69,5 +70,14 @@ public class AddToCart {
         WebElement btnAddToCart = webDriver.findElement(By.id("add_to_cart"));
 
         btnAddToCart.click();
+    }
+
+    /**
+     * User triggers an action to proceed to checkout page.
+     */
+    private static void clickProceed() {
+        WebElement btnProceed = webDriver.findElement(By.className("button-medium"));
+
+        btnProceed.click();
     }
 }
