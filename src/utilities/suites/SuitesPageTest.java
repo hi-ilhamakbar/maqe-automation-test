@@ -7,6 +7,7 @@ package utilities.suites;
 
 import org.openqa.selenium.WebDriver;
 import tests.AddToCart;
+import tests.AdjustCartQty;
 import static utilities.setup.Setup.getDriver;
 
 /**
@@ -14,6 +15,7 @@ import static utilities.setup.Setup.getDriver;
  */
 public class SuitesPageTest {
     private static AddToCart addToCart = new AddToCart();
+    private static AdjustCartQty adjustCartQty = new AdjustCartQty();
 
     // This function is calling WebDriver
     private static WebDriver webDriver;
@@ -33,5 +35,6 @@ public class SuitesPageTest {
         webDriver = getDriver();
 
         addToCart.setAddToCart();
+        adjustCartQty.setAdjustCart();
     }
 }
